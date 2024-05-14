@@ -479,6 +479,7 @@ class _HomeState extends State<Home> {
                   const SizedBox(
                     height: 20,
                   ),
+
                   Container(
                     width: double.maxFinite,
                     height: 100,
@@ -563,7 +564,7 @@ class _HomeState extends State<Home> {
                                       decoration: BoxDecoration(
                                           color: Colors.white,
                                           borderRadius:
-                                              BorderRadius.circular(15),
+                                          BorderRadius.circular(15),
                                           image: const DecorationImage(
                                             image: NetworkImage(
                                                 'https://cdn-icons-png.flaticon.com/128/16116/16116295.png'),
@@ -572,7 +573,7 @@ class _HomeState extends State<Home> {
                                           boxShadow: [
                                             BoxShadow(
                                               color:
-                                                  Colors.grey.withOpacity(0.5),
+                                              Colors.grey.withOpacity(0.5),
                                               blurRadius: 3,
                                               spreadRadius: 2,
                                             )
@@ -612,7 +613,7 @@ class _HomeState extends State<Home> {
                                       decoration: BoxDecoration(
                                           color: Colors.white,
                                           borderRadius:
-                                              BorderRadius.circular(15),
+                                          BorderRadius.circular(15),
                                           image: const DecorationImage(
                                             image: NetworkImage(
                                                 'https://cdn-icons-png.flaticon.com/128/9411/9411817.png'),
@@ -620,7 +621,7 @@ class _HomeState extends State<Home> {
                                           boxShadow: [
                                             BoxShadow(
                                               color:
-                                                  Colors.grey.withOpacity(0.5),
+                                              Colors.grey.withOpacity(0.5),
                                               blurRadius: 3,
                                               spreadRadius: 2,
                                             )
